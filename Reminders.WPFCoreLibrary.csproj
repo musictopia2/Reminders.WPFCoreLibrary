@@ -39,6 +39,7 @@
 	  <PackageReference Include="Microsoft.AspNetCore.Components.WebView.Wpf" Version="6.0.101-preview.10.2068" />
     <PackageReference Include="Reminders.BlazorCoreLibrary" Version="1.0.1" />
     <PackageReference Include="Reminders.CoreLibrary" Version="1.0.1" />
+    <PackageReference Include="WPFStartupLibrary" Version="2.0.1" />
 	  
   </ItemGroup>
 	<ItemGroup>

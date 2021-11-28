@@ -1,5 +1,4 @@
-﻿using Microsoft.Extensions.DependencyInjection;
-namespace Reminders.WPFCoreLibrary.Windows;
+﻿namespace Reminders.WPFCoreLibrary.Windows;
 public static class StartUp
 {
     private readonly static ServiceCollection _services = new();
@@ -13,13 +12,13 @@ public static class StartUp
             return _provides!;
         }
         _services.AddBlazorWebView();
+        _services.RegisterWPFServices();
         _services.AddSingleton<ReminderContainer, ReminderContainer>();
         ExtraServiceProcesses?.Invoke(_services);
         _loaded = true;
         _provides = _services.BuildServiceProvider();
         return _provides;
     }
-
     public static IServiceCollection TransferPopups(this IServiceCollection services)
     {
         var provider = GetProvider();
