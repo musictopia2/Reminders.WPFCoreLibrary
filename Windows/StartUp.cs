@@ -13,6 +13,7 @@ public static class StartUp
         }
         _services.AddBlazorWebView();
         _services.RegisterWPFServices();
+        _services.RegisterBlazorBeginningClasses(); //forgot this too.
         _services.AddSingleton<ReminderContainer, ReminderContainer>();
         ExtraServiceProcesses?.Invoke(_services);
         _loaded = true;
