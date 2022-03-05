@@ -5,26 +5,26 @@
 	  <UseWPF>true</UseWPF>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
-	<Version>1.0.3</Version>
+	<Version>1.0.5</Version>
   </PropertyGroup>
 
   <ItemGroup>
-    <Content Remove="C:\Users\music\.nuget\packages\basicblazorlibrary\3.0.1\contentFiles\any\net6.0\wwwroot\autoscroll.js" />
-    <Content Remove="C:\Users\music\.nuget\packages\basicblazorlibrary\3.0.1\contentFiles\any\net6.0\wwwroot\basichelpers.js" />
-    <Content Remove="C:\Users\music\.nuget\packages\basicblazorlibrary\3.0.1\contentFiles\any\net6.0\wwwroot\center.js" />
-    <Content Remove="C:\Users\music\.nuget\packages\basicblazorlibrary\3.0.1\contentFiles\any\net6.0\wwwroot\clipboard.js" />
-    <Content Remove="C:\Users\music\.nuget\packages\basicblazorlibrary\3.0.1\contentFiles\any\net6.0\wwwroot\elementselector.js" />
-    <Content Remove="C:\Users\music\.nuget\packages\basicblazorlibrary\3.0.1\contentFiles\any\net6.0\wwwroot\fullscreen.js" />
-    <Content Remove="C:\Users\music\.nuget\packages\basicblazorlibrary\3.0.1\contentFiles\any\net6.0\wwwroot\highlighter.js" />
-    <Content Remove="C:\Users\music\.nuget\packages\basicblazorlibrary\3.0.1\contentFiles\any\net6.0\wwwroot\hover.js" />
-    <Content Remove="C:\Users\music\.nuget\packages\basicblazorlibrary\3.0.1\contentFiles\any\net6.0\wwwroot\keystroke.js" />
-    <Content Remove="C:\Users\music\.nuget\packages\basicblazorlibrary\3.0.1\contentFiles\any\net6.0\wwwroot\operatingsystemhelpers.js" />
-    <Content Remove="C:\Users\music\.nuget\packages\basicblazorlibrary\3.0.1\contentFiles\any\net6.0\wwwroot\Resize.js" />
-    <Content Remove="C:\Users\music\.nuget\packages\basicblazorlibrary\3.0.1\contentFiles\any\net6.0\wwwroot\ResizeModule.js" />
-    <Content Remove="C:\Users\music\.nuget\packages\basicblazorlibrary\3.0.1\contentFiles\any\net6.0\wwwroot\scrolllistener.js" />
-    <Content Remove="C:\Users\music\.nuget\packages\basicblazorlibrary\3.0.1\contentFiles\any\net6.0\wwwroot\selectalltext.js" />
-    <Content Remove="C:\Users\music\.nuget\packages\basicblazorlibrary\3.0.1\contentFiles\any\net6.0\wwwroot\simplecarousel.js" />
-    <Content Remove="C:\Users\music\.nuget\packages\basicblazorlibrary\3.0.1\contentFiles\any\net6.0\wwwroot\text.js" />
+    <Content Remove="C:\Users\andy\.nuget\packages\basicblazorlibrary\3.0.1\contentFiles\any\net6.0\wwwroot\autoscroll.js" />
+    <Content Remove="C:\Users\andy\.nuget\packages\basicblazorlibrary\3.0.1\contentFiles\any\net6.0\wwwroot\basichelpers.js" />
+    <Content Remove="C:\Users\andy\.nuget\packages\basicblazorlibrary\3.0.1\contentFiles\any\net6.0\wwwroot\center.js" />
+    <Content Remove="C:\Users\andy\.nuget\packages\basicblazorlibrary\3.0.1\contentFiles\any\net6.0\wwwroot\clipboard.js" />
+    <Content Remove="C:\Users\andy\.nuget\packages\basicblazorlibrary\3.0.1\contentFiles\any\net6.0\wwwroot\elementselector.js" />
+    <Content Remove="C:\Users\andy\.nuget\packages\basicblazorlibrary\3.0.1\contentFiles\any\net6.0\wwwroot\fullscreen.js" />
+    <Content Remove="C:\Users\andy\.nuget\packages\basicblazorlibrary\3.0.1\contentFiles\any\net6.0\wwwroot\highlighter.js" />
+    <Content Remove="C:\Users\andy\.nuget\packages\basicblazorlibrary\3.0.1\contentFiles\any\net6.0\wwwroot\hover.js" />
+    <Content Remove="C:\Users\andy\.nuget\packages\basicblazorlibrary\3.0.1\contentFiles\any\net6.0\wwwroot\keystroke.js" />
+    <Content Remove="C:\Users\andy\.nuget\packages\basicblazorlibrary\3.0.1\contentFiles\any\net6.0\wwwroot\operatingsystemhelpers.js" />
+    <Content Remove="C:\Users\andy\.nuget\packages\basicblazorlibrary\3.0.1\contentFiles\any\net6.0\wwwroot\Resize.js" />
+    <Content Remove="C:\Users\andy\.nuget\packages\basicblazorlibrary\3.0.1\contentFiles\any\net6.0\wwwroot\ResizeModule.js" />
+    <Content Remove="C:\Users\andy\.nuget\packages\basicblazorlibrary\3.0.1\contentFiles\any\net6.0\wwwroot\scrolllistener.js" />
+    <Content Remove="C:\Users\andy\.nuget\packages\basicblazorlibrary\3.0.1\contentFiles\any\net6.0\wwwroot\selectalltext.js" />
+    <Content Remove="C:\Users\andy\.nuget\packages\basicblazorlibrary\3.0.1\contentFiles\any\net6.0\wwwroot\simplecarousel.js" />
+    <Content Remove="C:\Users\andy\.nuget\packages\basicblazorlibrary\3.0.1\contentFiles\any\net6.0\wwwroot\text.js" />
   </ItemGroup>
 
 
