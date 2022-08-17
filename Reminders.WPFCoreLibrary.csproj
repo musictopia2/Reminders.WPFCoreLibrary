@@ -15,9 +15,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="BasicBlazorLibrary" Version="4.0.1" />
-    <PackageReference Include="CommonBasicLibraries" Version="7.0.1" />
-	  <PackageReference Include="Microsoft.AspNetCore.Components.WebView.Wpf" Version="6.0.200-preview.13.2865" />
+    <PackageReference Include="BasicBlazorLibrary" Version="4.0.3" />
+    <PackageReference Include="CommonBasicLibraries" Version="7.0.5" />
+	  <PackageReference Include="Microsoft.AspNetCore.Components.WebView.Wpf" Version="6.0.486" />
     <PackageReference Include="Reminders.BlazorCoreLibrary" Version="2.0.1" />
     <PackageReference Include="Reminders.CoreLibrary" Version="2.0.1" />
     <PackageReference Include="WPFStartupLibrary" Version="3.0.1" />
