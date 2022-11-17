@@ -1,11 +1,11 @@
 <Project Sdk="Microsoft.NET.Sdk.Razor">
 
   <PropertyGroup>
-	  <TargetFramework>net6.0-windows</TargetFramework>
+	  <TargetFramework>net7.0-windows</TargetFramework>
 	  <UseWPF>true</UseWPF>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
-	<Version>2.0.2</Version>
+	<Version>7.0.1</Version>
   </PropertyGroup>
 
 
@@ -15,26 +15,14 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="BasicBlazorLibrary" Version="4.0.3" />
-    <PackageReference Include="CommonBasicLibraries" Version="7.0.5" />
-	  <PackageReference Include="Microsoft.AspNetCore.Components.WebView.Wpf" Version="6.0.486" />
-    <PackageReference Include="Reminders.BlazorCoreLibrary" Version="2.0.1" />
-    <PackageReference Include="Reminders.CoreLibrary" Version="2.0.1" />
-    <PackageReference Include="WPFStartupLibrary" Version="3.0.1" />
+    <PackageReference Include="BasicBlazorLibrary" Version="7.0.8" />
+    <PackageReference Include="CommonBasicLibraries" Version="7.0.8" />
+	  <PackageReference Include="Microsoft.AspNetCore.Components.WebView.Wpf" Version="7.0.49" />
+    
+    <PackageReference Include="Reminders.CoreLibrary" Version="7.0.1" />
+    
+    <PackageReference Include="Reminders.WindowsSoundRepeaterLibrary" Version="7.0.1" />
+    <PackageReference Include="WPFStartupLibrary" Version="7.0.2" />
 	  
   </ItemGroup>
-	<ItemGroup>
-		<Compile Update="Properties\Resources.Designer.cs">
-			<DesignTime>True</DesignTime>
-			<AutoGen>True</AutoGen>
-			<DependentUpon>Resources.resx</DependentUpon>
-		</Compile>
-	</ItemGroup>
-
-	<ItemGroup>
-		<EmbeddedResource Update="Properties\Resources.resx">
-			<Generator>ResXFileCodeGenerator</Generator>
-			<LastGenOutput>Resources.Designer.cs</LastGenOutput>
-		</EmbeddedResource>
-	</ItemGroup>
 </Project>

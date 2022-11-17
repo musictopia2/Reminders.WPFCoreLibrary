@@ -1,4 +1,5 @@
-﻿namespace Reminders.WPFCoreLibrary.PopUps;
+﻿
+namespace Reminders.WPFCoreLibrary.PopUps;
 public class BasicPopUp : IPopUp
 {
     public BasicPopUp(ReminderContainer container)
