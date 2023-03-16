@@ -1,12 +1,12 @@
-﻿
-namespace Reminders.WPFCoreLibrary.PopUps;
+﻿namespace Reminders.WPFCoreLibrary.PopUps;
 public class BasicPopUp : IPopUp
 {
+    public static bool SupportsSnooze { get; set; } = true;
     public BasicPopUp(ReminderContainer container)
     {
         _container = container;
         _container.ClosePopup = CloseSoundPopup;
-        _container.SupportsSnooze = true;
+        _container.SupportsSnooze = SupportsSnooze; //this way i can have something that does not support snoozing like testing refilling water on desktop to fix bugs.
     }
     public bool SupportsSound { get; set; }
     public Func<Task>? ClosedAsync { get; set; }
