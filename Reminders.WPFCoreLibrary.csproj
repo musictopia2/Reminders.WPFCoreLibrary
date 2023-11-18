@@ -1,11 +1,11 @@
 <Project Sdk="Microsoft.NET.Sdk.Razor">
 
   <PropertyGroup>
-	  <TargetFramework>net7.0-windows</TargetFramework>
+	  <TargetFramework>net8.0-windows</TargetFramework>
 	  <UseWPF>true</UseWPF>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
-	<Version>7.0.1</Version>
+	<Version>7.0.2</Version>
   </PropertyGroup>
 
 
@@ -15,14 +15,14 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="BasicBlazorLibrary" Version="7.0.8" />
-    <PackageReference Include="CommonBasicLibraries" Version="7.0.8" />
-	  <PackageReference Include="Microsoft.AspNetCore.Components.WebView.Wpf" Version="7.0.49" />
+    <PackageReference Include="BasicBlazorLibrary" Version="8.0.1" />
+    <PackageReference Include="CommonBasicLibraries" Version="8.0.1" />
+	  <PackageReference Include="Microsoft.AspNetCore.Components.WebView.Wpf" Version="8.0.3" />
     
-    <PackageReference Include="Reminders.CoreLibrary" Version="7.0.1" />
+    <PackageReference Include="Reminders.CoreLibrary" Version="8.0.1" />
     
-    <PackageReference Include="Reminders.WindowsSoundRepeaterLibrary" Version="7.0.1" />
-    <PackageReference Include="WPFStartupLibrary" Version="7.0.2" />
+    <PackageReference Include="Reminders.WindowsSoundRepeaterLibrary" Version="8.0.1" />
+    <PackageReference Include="WPFStartupLibrary" Version="8.0.1" />
 	  
   </ItemGroup>
 </Project>
