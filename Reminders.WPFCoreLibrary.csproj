@@ -5,7 +5,7 @@
 	  <UseWPF>true</UseWPF>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
-	<Version>7.0.2</Version>
+	<Version>8.0.2</Version>
   </PropertyGroup>
 
 
@@ -15,14 +15,14 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="BasicBlazorLibrary" Version="8.0.1" />
-    <PackageReference Include="CommonBasicLibraries" Version="8.0.1" />
-	  <PackageReference Include="Microsoft.AspNetCore.Components.WebView.Wpf" Version="8.0.3" />
+    <PackageReference Include="BasicBlazorLibrary" Version="8.0.7" />
+    <PackageReference Include="CommonBasicLibraries" Version="8.0.30" />
+	  <PackageReference Include="Microsoft.AspNetCore.Components.WebView.Wpf" Version="8.0.20" />
     
-    <PackageReference Include="Reminders.CoreLibrary" Version="8.0.1" />
+    <PackageReference Include="Reminders.CoreLibrary" Version="8.0.2" />
     
     <PackageReference Include="Reminders.WindowsSoundRepeaterLibrary" Version="8.0.1" />
-    <PackageReference Include="WPFStartupLibrary" Version="8.0.1" />
+    <PackageReference Include="WPFStartupLibrary" Version="8.0.2" />
 	  
   </ItemGroup>
 </Project>
