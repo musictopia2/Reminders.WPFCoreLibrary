@@ -1,28 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project Sdk="Microsoft.NET.Sdk.Razor">
-
   <PropertyGroup>
-	  <TargetFramework>net8.0-windows</TargetFramework>
-	  <UseWPF>true</UseWPF>
+    <TargetFramework>net9.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
-	<Version>8.0.2</Version>
+    <Version>9.0.1</Version>
   </PropertyGroup>
-
-
-
   <ItemGroup>
     <SupportedPlatform Include="browser" />
   </ItemGroup>
-
   <ItemGroup>
-    <PackageReference Include="BasicBlazorLibrary" Version="8.0.7" />
-    <PackageReference Include="CommonBasicLibraries" Version="8.0.30" />
-	  <PackageReference Include="Microsoft.AspNetCore.Components.WebView.Wpf" Version="8.0.20" />
-    
-    <PackageReference Include="Reminders.CoreLibrary" Version="8.0.2" />
-    
-    <PackageReference Include="Reminders.WindowsSoundRepeaterLibrary" Version="8.0.1" />
-    <PackageReference Include="WPFStartupLibrary" Version="8.0.2" />
-	  
+    <PackageReference Include="BasicBlazorLibrary" Version="9.0.1" />
+    <PackageReference Include="CommonBasicLibraries" Version="9.0.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebView.Wpf" Version="9.0.10" />
+    <PackageReference Include="Reminders.CoreLibrary" Version="9.0.1" />
+    <PackageReference Include="Reminders.WindowsSoundRepeaterLibrary" Version="9.0.1" />
+    <PackageReference Include="WPFStartupLibrary" Version="9.0.1" />
   </ItemGroup>
 </Project>
