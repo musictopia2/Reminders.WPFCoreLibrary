@@ -14,6 +14,7 @@ public class BasicPopUp : IPopUp
     private LoadSoundsHelperClass? _sounds;
     public static Func<Task>? CloseCustomToastAsync { get; set; }
     public static bool IsTesting { get; set; } = false;
+    public static bool ForceNoSound { get; set; } = false;
     private HiddenReminderWindow? _hidden;
     private SoundReminderWindow? _soundWindow;
     private readonly ReminderContainer _container;
@@ -35,6 +36,10 @@ public class BasicPopUp : IPopUp
     }
     public void PlaySound(int howOftenToRepeat)
     {
+        if (ForceNoSound)
+        {
+            return; //because forced no sound means do not even try.
+        }
         if (SupportsSound == false)
         {
             throw new CustomBasicException("Cannot play sounds because not even supported.");
@@ -44,6 +49,10 @@ public class BasicPopUp : IPopUp
     }
     private void CloseSoundPopup()
     {
+        if (ForceNoSound)
+        {
+            return; //because forced no sound means do not even try.
+        }
         if (_sounds is not null)
         {
             _sounds.StopPlay();
