@@ -15,7 +15,7 @@
   <ItemGroup>
     <PackageReference Include="BasicBlazorLibrary" Version="10.0.10" />
     <PackageReference Include="CommonBasicLibraries" Version="10.0.13" />
-    <PackageReference Include="Microsoft.AspNetCore.Components.WebView.Wpf" Version="10.0.11" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebView.Wpf" Version="9.0.120" />
     <PackageReference Include="Reminders.CoreLibrary" Version="10.0.9" />
     <PackageReference Include="Reminders.WindowsSoundRepeaterLibrary" Version="10.0.8" />
     <PackageReference Include="WPFStartupLibrary" Version="10.0.7" />
